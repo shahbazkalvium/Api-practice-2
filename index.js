@@ -33,5 +33,5 @@ app.get('/status-info', (req, res) =>{
 })
 
 app.listen(port, ()=>{
-    console.log(server is running in port: ${port});
+    console.log(`server is running in port: ${port}`);
 })
